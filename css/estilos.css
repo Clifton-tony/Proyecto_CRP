@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+
+.padre {
+	background: url("../assets/img/background_login.jpg");
+	background-size:cover;
+}
+
+
+.hijo {
+	position: absolute;
+	width: 500px;
+	height: 400px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	padding: 50px;	
+	background: white;
+	text-align: center;
+}
+
+
+
+input{
+	width: 100%;
+	height: 40px;
+	margin: 10px 0px;
+	padding: 10px;
+	font-size: 17px;
+	border-radius: 10px;
+}
+
+.boton{
+	font-size: 25px;
+	display: inline-block;
+	width: 200px;
+	border-radius: 10px;
+	background: cyan;
+	padding: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+}
