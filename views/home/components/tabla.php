@@ -1,5 +1,5 @@
-<table>
-	<thead>
+<table class="table">
+  	<thead class="table-light">
 		<tr>
 		<th>id</th>
 		<th>nombre</th>

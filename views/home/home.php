@@ -1,9 +1,9 @@
 <?php include '../_include/header.php' ?>
 	<section>
-		<div class="col col-3">
+		<div class="">
 			<?php include 'components/formulario.php' ?>
 		</div>
-		<div class="col col-7">
+		<div class="">
 			<?php include 'components/tabla.php' ?>
 		</div>
 	</section>

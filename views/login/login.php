@@ -6,7 +6,7 @@
 		<form action="../../models/validacion_login.php" method="POST">
 			<input type="text" name="usuario"	placeholder="usuario">
 			<input type="password" name="password"	placeholder="password">
-			<button class="boton" type="submit">botonaso</button>
+			<button class="boton" type="submit" name="btnLogin">botonaso</button>
 		</form>
 	</div>
 <?php include "../_include/footer_login.php" ?>
